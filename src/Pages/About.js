@@ -45,7 +45,9 @@ class About extends React.Component{
     return (
       <div>
       <h3 id = "Who-Am-I">Who Am I</h3>
-      <p> I am a student of the University of California Irvine. I am an avid pursuer of knowledge and enjoy spending my time learning something new and experiencing the world in new ways. From a young age I also had a morbid curiosity for the mechanisms behind technology. From these early stages I had always known that engineering was an innate feature of myself. And along the way, from my early childhood roots to teenage youth, I had shifted between Aerospace, Computer, and Mechanical Engineering. I finally settled towards computers. They really began fascinating me, with the start of my first programming class, occuring my senior year of high school. I had always loved computers but a new world was exposed to me when the backdoor of most modern technologies was shown to me. From there, I chose to pursue a degree in Computer Engineering, and plan to explore the world with a computer at the heart of my ability to transform it.</p>
+      <p>
+        I enjoy spending my time learning something new and experiencing the world in new ways. From a young age I had a morbid curiosity for the mechanisms behind technology. From these early stages I had always known that engineering was an innate part of myself. And along the way, my aspirations had shifted between Aerospace, Computer, and Mechanical Engineering, finally settling towards computers. They really began fascinating me, with the start of my first programming class in high school. I had always loved computers but a new world was exposed to me programming was introduced. From there, I chose to pursue a degree in Computer Engineering at UCI.
+      </p>
 
       <div className = "about-breaks" ></div>
 
