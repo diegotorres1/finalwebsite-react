@@ -1,6 +1,9 @@
 import React from 'react';
 import {Row, Col, Container, Image, Card, Button} from 'react-bootstrap';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import {
+  Link
+} from "react-router-dom";
 import './../Pages.css';
 
 class Home extends React.Component{
@@ -64,7 +67,8 @@ class Home extends React.Component{
                   <Card.Text>
                     I enjoy coding for both my work and side projects, enjoying the rigor of solving problems and seeing real world results.
                   </Card.Text>
-                  <Button className = "home_content_button" block href = "/about"  variant="dark">Read More</Button>
+
+                  <Link to = "/about" className="nav-link"><Button className = "home_content_button" block variant="dark">Read More</Button></Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -102,7 +106,7 @@ class Home extends React.Component{
                     <Card.Text>
                       <i>Zotbins</i> , a smart waste guidance system, helps optimize environmental campus wide trash responsibilities.
                     </Card.Text>
-                    <Button className = "home_content_button" block variant="dark" href = 'http://localhost:3000/projects/zotbins'>Find out more</Button>
+                    <Link to = "/projects/zotbins" className="nav-link"><Button className = "home_content_button" block variant="dark">Find out more</Button></Link>
                   </Card.Body>
                 </Card>
             </Col>
