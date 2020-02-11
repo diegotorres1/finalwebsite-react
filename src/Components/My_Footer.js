@@ -18,8 +18,8 @@ class Gallery extends React.Component{
         <Container>
         <Row>
           <Col className="Link">{email}</Col>
-          <Col><a href="https://www.linkedin.com/in/diego-torres-557766157" ><div className = "Link" >{linkedin}</div></a></Col>
-          <Col><a href="https://github.com/diegotorres1" ><div className = "Link" >{repository}</div></a></Col>
+          <Col><a href="https://www.linkedin.com/in/diego-torres-557766157" target="_blank"><div className = "Link" >{linkedin}</div></a></Col>
+          <Col><a href="https://github.com/diegotorres1" target="_blank"><div className = "Link" >{repository}</div></a></Col>
         </Row>
 
         </Container>

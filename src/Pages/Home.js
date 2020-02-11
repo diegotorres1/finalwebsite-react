@@ -64,7 +64,7 @@ class Home extends React.Component{
                   <Card.Text>
                     I enjoy coding for both my work and side projects, enjoying the rigor of solving problems and seeing real world results.
                   </Card.Text>
-                  <Button className = "home_content_button" block variant="dark">Read More</Button>
+                  <Button className = "home_content_button" block href = "/about"  variant="dark">Read More</Button>
                 </Card.Body>
               </Card>
             </Col>
