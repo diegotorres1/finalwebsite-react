@@ -210,7 +210,7 @@ export var p_data = {
                 <br /><br />
                 Experience from using industry software QuestaSim to correctly model and simulate our processor designs. Simulated results could then be read and fine tuned to meet the design specifications of the project.</p>
       ),
-      'Image' : '/Resources/Projects/processor_design_and_verification/datapath_banner.png'
+      'Image' : '/Resources/Projects/processor_design_and_verification/datapath_banner.PNG'
 
     },
   'fpga_board' :
@@ -233,7 +233,7 @@ export var p_data = {
                 <br /><br />
                 Learned how a processor works given that the previous course described the types of logic gates associated with computer design. Exciting to finally put those hand drawn logic gates to actual use.</p>
       ),
-      'Image' : '/Resources/Projects/fpga_board/fpga_banner.png'
+      'Image' : '/Resources/Projects/fpga_board/fpga_banner.PNG'
 
     },
 }
