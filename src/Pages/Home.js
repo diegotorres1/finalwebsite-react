@@ -47,12 +47,14 @@ class Home extends React.Component{
             <Row >
               <Col />
               <Col >
-                  <Image style = {{'textAlign' : 'center'}} src="Resources/my_photo_temp.png" roundedCircle />
+
               </Col>
               <Col />
             </Row>
             <Row>
               <Col>
+                <p style = {{'textAlign' :'center'}}>
+                <Image style = {{'justifyContent' : 'center'}} src="Resources/my_photo_temp.png" roundedCircle /></p>
                 <h1 className = "Title">Diego Torres</h1>
                 <h4 style = {{'textAlign' :'center'}}>Computer Engineer</h4>
                 <p style = {{'textAlign' :'center'}}>Coder, Engineer, and CG Hobbiest</p>
